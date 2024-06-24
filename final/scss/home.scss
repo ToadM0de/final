@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-bottom: 16px;
+}
+
+.nav-wrapper {
+    height: 90px;
+    width: 100%;
+    position: fixed;
+  }
+  .nav-wrapper nav {
+    max-width: 1280px;
+    height: 90px;
+    margin: 0 auto;
+    border-bottom: solid 3px #FC5000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  } 
+  .nav-wrapper nav .links {
+    width: 9000px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-between;
+    font-size: 16px;
+  }
+  .home{
+    text-decoration: none;
+    color: #FC5000;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .galleryLink{
+    text-decoration: none;
+    color: #00879E;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .events{
+    text-decoration: none;
+    color: #00879E;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .contact{
+    text-decoration: none;
+    color: #00879E;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .about {
+    color: #00879E;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  @media only all and (max-width: 980px) {
+    .nav-wrapper nav {
+      padding: 0 30px;
+    }
+  }
+  @media only all and (max-width: 800px) {
+    .nav-wrapper nav {
+      padding: 0 10px;
+    }
+  }
+
+  .space {
+height: 150px;
+  }
+
+.hero {
+    max-width: 100%;
+    height: 70%;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(233, 131, 13, 0.5)), to(rgba(233, 131, 13, 0.5))), url(../images/abstracthero.jpg);
+    background-image: linear-gradient(to bottom, rgba(233, 131, 13, 0.5), rgba(233, 131, 13, 0.5)), url(../images/abstracthero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+            padding-left: 600px;
+            margin: 0 auto;
+            position: relative;
+}
+.header {
+    color: #ffffff;
+    font-size: 32px;
+    margin-right: 560px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.moreSpace {
+    height: 100px;
+}
+.moreSpaces {
+    height: 150px;
+}
+.mooreSpaces {
+    height: 190px;
+}
+.feat {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 32px;
+    text-align: center;
+}
+.par {
+    width: 678px;
+    height: 100px;
+    text-align: center;
+    margin-left: 380px;
+}
+.img1 {
+    width: 380px;
+    height: 350px;
+background-image: url(../images/featured_one.jpg);
+background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    margin-left: 70px;
+}
+.img2 {
+    width: 380px;
+    height: 350px;
+    background-image: url(../images/featured_two.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    margin-left:90px;
+}
+.img3 {
+    width: 380px;
+    height: 350px;
+    background-image: url(../images/featured_three.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 1030px;
+}
+footer {
+    max-width: 980px;
+    height: 150px;
+    margin: 0 auto; 
+}
+
+.wrapper {
+    max-width: 980px;
+    min-height: 200px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+}
+.col {
+    flex: 1;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.foot-wrapper {
+    height: 465px;
+    width: 100%;
+    background-color: #00879E;
+  }
+  .foot-wrapper footer {
+    height: 455px;
+    background-color: #00879E;
+  }
+  .foot-wrapper footer .bop {
+    height: 50px;
+  }
+  .foot-wrapper footer .phone {
+    color: #ffffff;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .foot-wrapper footer .signup {
+    position: relative;
+    height: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    margin: auto;
+  }
+  .foot-wrapper footer .signup input {
+    width: 929px;
+    height: 35px;
+    background-color: #97C6CE;
+    border: none;
+    font-size: 16px;
+    margin: auto;
+    margin-left: 200px;
+  }
+
+  .foot-wrapper footer .signup .button {
+    width: 167px;
+    height: 35px;
+    background-color: #ffffff;
+    padding-top: 10px;
+    color: black;
+    margin: auto;
+    padding-bottom: 24px;
+    margin-right: 67px;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .facebook {
+    content: url(../images/facebook_w.png);
+  height: 50px;
+  float: left;
+  padding-left: 350px;
+}
+.instagram {
+  content: url(../images/instagram_w.png);
+height: 50px;
+padding-left: 100px;
+float: left;
+}
+.twitter {
+  content: url(../images/twitter_w.png);
+height: 50px;
+padding-left: 100px;
+margin-top: 50px;
+}
+  @media only all and (max-width: 980px) {
+    .foot-wrapper footer {
+      padding: 0 30px;
+    }
+  }
+  @media (max-width: 944px) {
+    .media {
+        display: block;
+    }
+
+    .media div{
+        margin: 0 auto 20px auto;
+        height: 50px;
+    }
+}
